@@ -1,6 +1,6 @@
 # dokku mysql (beta) [![Build Status](https://img.shields.io/travis/dokku/dokku-mysql.svg?branch=master "Build Status")](https://travis-ci.org/dokku/dokku-mysql) [![IRC Network](https://img.shields.io/badge/irc-freenode-blue.svg "IRC Freenode")](https://webchat.freenode.net/?channels=dokku)
 
-Official mysql plugin for dokku. Currently defaults to installing [mysql 5.7.10](https://hub.docker.com/_/mysql/).
+mysql plugin for arm. Currently defaults to installing mysql 5.6
 
 ## requirements
 
@@ -10,13 +10,8 @@ Official mysql plugin for dokku. Currently defaults to installing [mysql 5.7.10]
 ## installation
 
 ```shell
-# on 0.3.x
-cd /var/lib/dokku/plugins
-git clone https://github.com/dokku/dokku-mysql.git mysql
-dokku plugins-install
-
 # on 0.4.x
-dokku plugin:install https://github.com/dokku/dokku-mysql.git mysql
+dokku plugin:install https://github.com/mainto/dokku-mysql.git mysql
 ```
 
 ## commands
